@@ -1,0 +1,29 @@
+.users-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.users-list li {
+    border-bottom-style: solid;
+    margin: 0px 7px 0px 7px;
+    padding: 15px 0px 15px 0px;
+    font-size: 1.4em;
+    height: 18px;
+}
+.content{
+    margin: 0 auto;
+    border-style: solid;
+}
+.append_user{
+    margin: 0 auto;
+    border-style: solid;
+    margin-bottom: 10px;
+}
+.user_name{
+    background-color: burlywood;
+    font-size: 25px;
+}
+.addUser{
+    font-size: 25px;
+}
