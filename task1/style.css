@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+}
+#result_div{
+    height: 300px;
+    width: 350px;
+    border-style: solid;
+    margin: 0 auto;
+}
+output{
+    display: inline-block;
+    min-width: 2.5em;
+}
+p, output{
+    padding: 2px 9px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 1.1em;
+}
+p[for=r], output[for=r]{
+    background-color: #f00;
+}
+p[for=g], output[for=g]{
+    background-color: #0f0;
+}
+p[for=b], output[for=b]{
+    background-color: #00f;
+}
+#hex{
+    min-width: 4.5em;
+    font-size: 3em;
+    background: rgba(255,255,255,.3);
+}
